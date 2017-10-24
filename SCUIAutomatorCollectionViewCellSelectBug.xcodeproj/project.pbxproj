@@ -13,6 +13,7 @@
 		6EE07BD91F9F4CF200FCD1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE07BD81F9F4CF200FCD1EB /* Assets.xcassets */; };
 		6EE07BDC1F9F4CF200FCD1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE07BDA1F9F4CF200FCD1EB /* LaunchScreen.storyboard */; };
 		6EE07BE71F9F4CF200FCD1EB /* SCUIAutomatorCollectionViewCellSelectBugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE07BE61F9F4CF200FCD1EB /* SCUIAutomatorCollectionViewCellSelectBugUITests.swift */; };
+		6EE07BF21F9F4E4E00FCD1EB /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE07BF11F9F4E4E00FCD1EB /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		6EE07BE21F9F4CF200FCD1EB /* SCUIAutomatorCollectionViewCellSelectBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCUIAutomatorCollectionViewCellSelectBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE07BE61F9F4CF200FCD1EB /* SCUIAutomatorCollectionViewCellSelectBugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCUIAutomatorCollectionViewCellSelectBugUITests.swift; sourceTree = "<group>"; };
 		6EE07BE81F9F4CF200FCD1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE07BF11F9F4E4E00FCD1EB /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				6EE07BD11F9F4CF200FCD1EB /* AppDelegate.swift */,
 				6EE07BD31F9F4CF200FCD1EB /* ViewController.swift */,
 				6EE07BD51F9F4CF200FCD1EB /* Main.storyboard */,
+				6EE07BF11F9F4E4E00FCD1EB /* CollectionViewController.swift */,
 				6EE07BD81F9F4CF200FCD1EB /* Assets.xcassets */,
 				6EE07BDA1F9F4CF200FCD1EB /* LaunchScreen.storyboard */,
 				6EE07BDD1F9F4CF200FCD1EB /* Info.plist */,
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE07BF21F9F4E4E00FCD1EB /* CollectionViewController.swift in Sources */,
 				6EE07BD41F9F4CF200FCD1EB /* ViewController.swift in Sources */,
 				6EE07BD21F9F4CF200FCD1EB /* AppDelegate.swift in Sources */,
 			);

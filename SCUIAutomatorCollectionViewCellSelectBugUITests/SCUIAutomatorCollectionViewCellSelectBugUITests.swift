@@ -28,9 +28,11 @@ class SCUIAutomatorCollectionViewCellSelectBugUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testTapCollectionViewCell() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCUIApplication().children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .collectionView).element.tap()
+        XCTAssertTrue(XCUIApplication().staticTexts["viewControllerLabel"].exists)
     }
     
 }
